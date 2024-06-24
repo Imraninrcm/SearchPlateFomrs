@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search_Everywhere</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -17,193 +18,177 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <style>
-    body{
-      style="
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      background-color: azure;
-    "
-    }
-    h{
-      text-decoration:underline;
-    }
-    .main{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
   </head>
   <body>
     <h1>Search in multiple platforms</h1>
-   <div class = "main">
-     <div class="container">
-      <h3>
-        Search in
-        <i class="fa-brands fa-google fa-shake" style="color: #7c14c2"></i>
-      </h3>
-
-      <form action="https://www.google.com/search" class="row g-3">
-        <div class="col-auto">
-          <label for="search" class="visually-hidden">Enter your search</label>
-          <input
-            type="text"
-            class="form-control"
-            id="search"
-            placeholder="Enter your search"
-            name="q"
-          />
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-outline-primary mb-3">
-            search
-          </button>
-        </div>
-        <div class="col-auto">
-          <button type="reset" class="btn btn-outline-primary mb-3">
-            Reset
-          </button>
-        </div>
-      </form>
+    <div class="main">
+      <div class="container">
+        <h3>
+          Search in
+          <i class="fa-brands fa-google fa-shake" style="color: #7c14c2"></i>
+        </h3>
+        <form action="https://www.google.com/search" class="row g-3">
+          <div class="col-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter your search"
+              name="q"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-primary mb-3">
+              search
+            </button>
+          </div>
+          <div class="col-auto">
+            <button type="reset" class="btn btn-outline-primary mb-3">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+      <hr />
+      <div class="container">
+        <h3>
+          Search in
+          <i class="fa-brands fa-youtube fa-bounce" style="color: #f00505"></i>
+        </h3>
+        <form action="https://www.youtube.com/results" class="row g-3">
+          <div class="col-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter your search"
+              name="search_query"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-secondary mb-3">
+              search
+            </button>
+          </div>
+          <div class="col-auto">
+            <button type="reset" class="btn btn-outline-secondary mb-3">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+      <hr />
+      <div class="container">
+        <h3>
+          Search in
+          <i class="fa-brands fa-windows fa-flip" style="color: #0ee17f"></i>
+        </h3>
+        <form action="https://www.bing.com/search" class="row g-3">
+          <div class="col-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter your search"
+              name="q"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-success mb-3">
+              search
+            </button>
+          </div>
+          <div class="col-auto">
+            <button type="reset" class="btn btn-outline-success mb-3">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+      <hr />
+      <div class="container">
+        <h3>Search in Flipkart</h3>
+        <form action="https://www.flipkart.com/search" class="row g-3">
+          <div class="col-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter your search"
+              name="q"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-warning mb-3">
+              search
+            </button>
+          </div>
+          <div class="col-auto">
+            <button type="reset" class="btn btn-outline-warning mb-3">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+      <hr />
+      <div class="container">
+        <h3>
+          Search in
+          <i class="fa-brands fa-amazon fa-bounce" style="color: #eca706e6"></i>
+        </h3>
+        <form action="https://www.amazon.in/s" class="row g-3">
+          <div class="col-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter your search"
+              name="k"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-info mb-3">
+              search
+            </button>
+          </div>
+          <div class="col-auto">
+            <button type="reset" class="btn btn-outline-info mb-3">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+      <hr />
+      <div class="container">
+        <h3>
+          Search in
+          <i
+            class="fa-brands fa-wikipedia-w fa-flip"
+            style="color: #6610f2"
+          ></i>
+        </h3>
+        <form action="https://en.wikipedia.org/w/index.php" class="row g-3">
+          <div class="col-auto">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter your search"
+              name="search"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-dark mb-3">
+              search
+            </button>
+          </div>
+          <div class="col-auto">
+            <button type="reset" class="btn btn-outline-dark mb-3">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-    <hr />
-    <div class="container">
-      <h3>
-        Search in
-        <i class="fa-brands fa-youtube fa-bounce" style="color: #f00505"></i>
-      </h3>
-      <form action="https://www.youtube.com/results" class="row g-3">
-        <div class="col-auto">
-          <label for="search" class="visually-hidden">Enter your search</label>
-          <input
-            type="text"
-            class="form-control"
-            id="search"
-            placeholder="Enter your search"
-            name="search_query"
-          />
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-outline-secondary mb-3">
-            search
-          </button>
-        </div>
-        <div class="col-auto">
-          <button type="reset" class="btn btn-outline-secondary mb-3">
-            Reset
-          </button>
-        </div>
-      </form>
-    </div>
-    <hr />
-    <div class="container">
-      <h3>
-        Search in
-        <i class="fa-brands fa-windows fa-flip" style="color: #0ee17f"></i>
-      </h3>
-      <form action="https://www.bing.com/search" class="row g-3">
-        <div class="col-auto">
-          <label for="search" class="visually-hidden">Enter your search</label>
-          <input
-            type="text"
-            class="form-control"
-            id="search"
-            placeholder="Enter your search"
-            name="q"
-          />
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-outline-success mb-3">
-            search
-          </button>
-        </div>
-        <div class="col-auto">
-          <button type="reset" class="btn btn-outline-success mb-3">
-            Reset
-          </button>
-        </div>
-      </form>
-    </div>
-    <hr />
-    <div class="container">
-      <h3>Search in Flipkart</h3>
-      <form action="https://www.flipkart.com/search" class="row g-3">
-        <div class="col-auto">
-          <label for="search" class="visually-hidden">Enter your search</label>
-          <input
-            type="text"
-            class="form-control"
-            id="search"
-            placeholder="Enter your search"
-            name="q"
-          />
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-outline-warning mb-3">
-            search
-          </button>
-        </div>
-        <div class="col-auto">
-          <button type="reset" class="btn btn-outline-warning mb-3">
-            Reset
-          </button>
-        </div>
-      </form>
-    </div>
-    <hr />
-    <div class="container">
-      <h3>
-        Search in
-        <i class="fa-brands fa-amazon fa-bounce" style="color: #eca706e6"></i>
-      </h3>
-      <form action="https://www.amazon.in/s" class="row g-3">
-        <div class="col-auto">
-          <label for="search" class="visually-hidden">Enter your search</label>
-          <input
-            type="text"
-            class="form-control"
-            id="search"
-            placeholder="Enter your search"
-            name="k"
-          />
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-outline-info mb-3">
-            search
-          </button>
-        </div>
-        <div class="col-auto">
-          <button type="reset" class="btn btn-outline-info mb-3">Reset</button>
-        </div>
-      </form>
-    </div>
-    <hr />
-    <div class="container">
-      <h3>
-        Search in
-        <i class="fa-brands fa-wikipedia-w fa-flip" style="color: #6610f2"></i>
-      </h3>
-      <form action="https://en.wikipedia.org/w/index.php" class="row g-3">
-        <div class="col-auto">
-          <label for="search" class="visually-hidden">Enter your search</label>
-          <input
-            type="text"
-            class="form-control"
-            id="search"
-            placeholder="Enter your search"
-            name="search"
-          />
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-outline-dark mb-3">
-            search
-          </button>
-        </div>
-        <div class="col-auto">
-          <button type="reset" class="btn btn-outline-dark mb-3">Reset</button>
-        </div>
-      </form>
-    </div>
-   </div>
   </body>
 </html>
