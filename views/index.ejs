@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Search Everywhere</title>
+    <link rel="icon" href="/assets/download.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header
+      class="py-4 mb-4 text-center bg-info bg-gradient text-white shadow-sm"
+    >
+      <h1 class="display-5 fw-bold mb-0">Search in Multiple Platforms</h1>
+      <p class="lead mt-2">Find what you need, wherever you want!</p>
+    </header>
+    <div class="main">
+      <% platforms.forEach(platform => { %>
+      <div class="search-card">
+        <div class="search-header">
+          <span>Search in <%= platform.platform %></span>
+          <% if (platform.icon) { %>
+          <i
+            class="<%= platform.icon.class %>"
+            style="color: <%= platform.icon.color %>"
+          ></i>
+          <% } %>
+        </div>
+        <form
+          action="<%= platform.action %>"
+          class="row g-3 justify-content-center align-items-center"
+        >
+          <div class="col-12 col-md-6">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="<%= platform.placeholder %>"
+              name="<%= platform.inputName %>"
+              required
+            />
+          </div>
+          <div class="col-6 col-md-3 d-grid">
+            <button
+              type="submit"
+              class="btn <%= platform.buttonClass %> btn-lg"
+            >
+              <i class="fa-solid fa-magnifying-glass me-1"></i> Search
+            </button>
+          </div>
+          <div class="col-6 col-md-3 d-grid">
+            <button type="reset" class="btn btn-outline-secondary btn-lg">
+              <i class="fa-solid fa-rotate-left me-1"></i> Reset
+            </button>
+          </div>
+        </form>
+      </div>
+      <% }); %>
+    </div>
+  </body>
+</html>

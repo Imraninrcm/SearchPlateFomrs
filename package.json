@@ -1,0 +1,25 @@
+{
+  "name": "searchplatefomrs",
+  "version": "1.0.0",
+  "description": "This is search Plateform project made by me using only HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imraninrcm/SearchPlateFomrs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Imraninrcm/SearchPlateFomrs/issues"
+  },
+  "homepage": "https://github.com/Imraninrcm/SearchPlateFomrs#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

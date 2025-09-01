@@ -1,0 +1,109 @@
+[
+  {
+    "platform": "Google",
+    "icon": {
+      "class": "fa-brands fa-google fa-shake",
+      "color": "#7c14c2"
+    },
+    "action": "https://www.google.com/search",
+    "inputName": "q",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-primary"
+  },
+  {
+    "platform": "YouTube",
+    "icon": {
+      "class": "fa-brands fa-youtube fa-bounce",
+      "color": "#f00505"
+    },
+    "action": "https://www.youtube.com/results",
+    "inputName": "search_query",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-secondary"
+  },
+  {
+    "platform": "Bing",
+    "icon": {
+      "class": "fa-brands fa-windows fa-flip",
+      "color": "#0ee17f"
+    },
+    "action": "https://www.bing.com/search",
+    "inputName": "q",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-success"
+  },
+  {
+    "platform": "Flipkart",
+    "icon": null,
+    "action": "https://www.flipkart.com/search",
+    "inputName": "q",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-warning"
+  },
+  {
+    "platform": "Amazon",
+    "icon": {
+      "class": "fa-brands fa-amazon fa-bounce",
+      "color": "#eca706e6"
+    },
+    "action": "https://www.amazon.in/s",
+    "inputName": "k",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-info"
+  },
+  {
+    "platform": "Wikipedia",
+    "icon": {
+      "class": "fa-brands fa-wikipedia-w fa-flip",
+      "color": "#6610f2"
+    },
+    "action": "https://en.wikipedia.org/w/index.php",
+    "inputName": "search",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-dark"
+  },
+  {
+    "platform": "DuckDuckGo",
+    "icon": {
+      "class": "fa-brands fa-docker fa-flip",
+      "color": "#ffd43b"
+    },
+    "action": "https://duckduckgo.com/",
+    "inputName": "q",
+    "placeholder": "Enter your search",
+    "buttonClass": "btn-outline-warning"
+  },
+  {
+    "platform": "Movie Clip or Dialog",
+    "icon": {
+      "class": "fa-solid fa-clapperboard fa-bounce",
+      "color": "#21e47f"
+    },
+    "action": "https://yarn.co/yarn-find",
+    "inputName": "text",
+    "placeholder": "Enter a famous dialog or any video clip text",
+    "buttonClass": "btn-outline-success"
+  },
+  {
+    "platform": "Music & Song",
+    "icon": {
+      "class": "fa-solid fa-music fa-bounce",
+      "color": "#b197fc"
+    },
+    "action": "https://x-minus.pro/search",
+    "inputName": "q",
+    "placeholder": "Song name or Artist name",
+    "buttonClass": "btn-outline-secondary"
+  },
+  {
+    "platform": "Compare any product",
+    "icon": {
+      "class": "fa-solid fa-not-equal fa-bounce",
+      "color": "#a3a3a3"
+    },
+    "action": "https://versus.com/en/search",
+    "inputName": "q",
+    "placeholder": "Any thing",
+    "buttonClass": "btn-outline-primary"
+  }
+]
