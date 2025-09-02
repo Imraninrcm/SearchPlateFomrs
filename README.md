@@ -16,7 +16,7 @@ Built with **Node.js**, **Express**, **Bootstrap**, and **Font Awesome**.
 
 ## 📸 Preview
 
-![Screenshot](assets/download.png)
+![Screenshot](/public/assets/download.png)
 
 ---
 
