@@ -8,7 +8,8 @@
     "action": "https://www.google.com/search",
     "inputName": "q",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-primary"
+    "buttonClass": "btn-outline-primary",
+    "about": "Here you can search anything just like google.com"
   },
   {
     "platform": "YouTube",
@@ -19,7 +20,8 @@
     "action": "https://www.youtube.com/results",
     "inputName": "search_query",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-secondary"
+    "buttonClass": "btn-outline-secondary",
+    "about": "Search any YouTube video directly here"
   },
   {
     "platform": "Bing",
@@ -30,7 +32,8 @@
     "action": "https://www.bing.com/search",
     "inputName": "q",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-success"
+    "buttonClass": "btn-outline-success",
+    "about": "Search things with Microsoft search engine Bing"
   },
   {
     "platform": "Flipkart",
@@ -38,7 +41,8 @@
     "action": "https://www.flipkart.com/search",
     "inputName": "q",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-warning"
+    "buttonClass": "btn-outline-warning",
+    "about": "Just write product name and shop from Flipkart"
   },
   {
     "platform": "Amazon",
@@ -49,7 +53,8 @@
     "action": "https://www.amazon.in/s",
     "inputName": "k",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-info"
+    "buttonClass": "btn-outline-info",
+    "about": "Check product details from amazon , Just write it down here"
   },
   {
     "platform": "Wikipedia",
@@ -60,7 +65,8 @@
     "action": "https://en.wikipedia.org/w/index.php",
     "inputName": "search",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-dark"
+    "buttonClass": "btn-outline-dark",
+    "about": "Want to read anything from online free encyclopedia"
   },
   {
     "platform": "DuckDuckGo",
@@ -71,7 +77,8 @@
     "action": "https://duckduckgo.com/",
     "inputName": "q",
     "placeholder": "Enter your search",
-    "buttonClass": "btn-outline-warning"
+    "buttonClass": "btn-outline-warning",
+    "about": "Be carefull, you may go to Dark Web"
   },
   {
     "platform": "Movie Clip or Dialog",
@@ -82,7 +89,8 @@
     "action": "https://yarn.co/yarn-find",
     "inputName": "text",
     "placeholder": "Enter a famous dialog or any video clip text",
-    "buttonClass": "btn-outline-success"
+    "buttonClass": "btn-outline-success",
+    "about": "Want to find the famouse dialog movie clip, just write it down "
   },
   {
     "platform": "Music & Song",
@@ -93,7 +101,8 @@
     "action": "https://x-minus.pro/search",
     "inputName": "q",
     "placeholder": "Song name or Artist name",
-    "buttonClass": "btn-outline-secondary"
+    "buttonClass": "btn-outline-secondary",
+    "about": "Want to download any Music instrumental mp3, write it here, Song or Artist name"
   },
   {
     "platform": "Compare any product",
@@ -104,6 +113,7 @@
     "action": "https://versus.com/en/search",
     "inputName": "q",
     "placeholder": "Any thing",
-    "buttonClass": "btn-outline-primary"
+    "buttonClass": "btn-outline-primary",
+    "about": "Want to compare 2 any products, then Welcome to Versus.com"
   }
 ]

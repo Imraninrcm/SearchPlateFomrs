@@ -34,8 +34,19 @@ Built with **Node.js**, **Express**, **Bootstrap**, and **Font Awesome**.
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/SearchPlateForms.git
+   git clone https://github.com/Imraninrcm/SearchPlateForms.git
+   ```
+2. **Change the dir to SearchPlateForms:**
+   ```bash
    cd SearchPlateForms
+   ```
+3. **Install node_modules:**
+   ```bash
+   npm install
+   ```
+4. **Run app.js:**
+   ```bash
+   node app.js
    ```
 
 ## 📸 Page Icon
