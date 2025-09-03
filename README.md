@@ -16,7 +16,7 @@ Built with **Node.js**, **Express**, **Bootstrap**, and **Font Awesome**.
 
 ## 📸 Preview
 
-![Screenshot](/public/assets/download.png)
+![Screenshot](./public/assets/image.png)
 
 ---
 
@@ -37,3 +37,7 @@ Built with **Node.js**, **Express**, **Bootstrap**, and **Font Awesome**.
    git clone https://github.com/yourusername/SearchPlateForms.git
    cd SearchPlateForms
    ```
+
+## 📸 Page Icon
+
+![Screenshot](./public/assets/icon.webp)
