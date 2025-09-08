@@ -115,5 +115,18 @@
     "placeholder": "Any thing",
     "buttonClass": "btn-outline-primary",
     "about": "Want to compare 2 any products, then Welcome to Versus.com"
+  },
+  
+  {
+    "platform": "Find any git repo or user directly here",
+    "icon": {
+      "class": "fa-brands fa-github fa-bounce",
+      "color": "#B197FC"
+    },
+    "action": "https://github.com/search",
+    "inputName": "q",
+    "placeholder": "Any repo or user name",
+    "buttonClass": "btn-outline-info",
+    "about": "Want to find about github repository or user , do directly here"
   }
 ]
