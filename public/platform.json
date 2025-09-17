@@ -116,7 +116,7 @@
     "buttonClass": "btn-outline-primary",
     "about": "Want to compare 2 any products, then Welcome to Versus.com"
   },
-  
+
   {
     "platform": "Find any git repo or user directly here",
     "icon": {
@@ -130,15 +130,39 @@
     "about": "Want to find about github repository or user , do directly here"
   },
   {
-    "platform": "Solve any equation here, just write it here",
+    "platform": "Solve any equation here, ax^2 + bx + c = 0",
     "icon": {
       "class": "bi bi-calculator-fill",
       "color": ""
     },
     "action": "https://www.cymath.com/answer",
     "inputName": "q",
-    "placeholder": "Any equation here",
-    "buttonClass": "btn-outline-info",
-    "about": "Want to find step by step solution of a equation, find here"
+    "placeholder": "e.g: 3x^2 + 7x - 1",
+    "buttonClass": "btn-outline-secondary",
+    "about": "Want to find step by step solution of a linear or quadratic equation, find here"
+  },
+  {
+    "platform": "Bootstrap Icons",
+    "icon": {
+      "class": "fa-brands fa-bootstrap fa-bounce",
+      "color": "#B197FC"
+    },
+    "action": "https://icons.getbootstrap.com/",
+    "inputName": "q",
+    "placeholder": "e.g: clock, book etc",
+    "buttonClass": "btn-outline-warning",
+    "about": "Want to find a Bootstap icon , find here"
+  },
+  {
+    "platform": "Chemical Equations",
+    "icon": {
+      "class": "fa-solid fa-flask fa-spin fa-spin-reverse",
+      "color": "#11e49d"
+    },
+    "action": "https://chemequations.com/en/",
+    "inputName": "s",
+    "placeholder": "e.g: NaCl + H2SO4 = NaSO3 + H2O",
+    "buttonClass": "btn btn-dark",
+    "about": "Balance a chemical equation 0 NaCl + 0 H2SO4 → 0 NaSO3 + 0 H2O here"
   }
 ]
