@@ -128,5 +128,17 @@
     "placeholder": "Any repo or user name",
     "buttonClass": "btn-outline-info",
     "about": "Want to find about github repository or user , do directly here"
+  },
+  {
+    "platform": "Solve any equation here, just write it here",
+    "icon": {
+      "class": "bi bi-calculator-fill",
+      "color": ""
+    },
+    "action": "https://www.cymath.com/answer",
+    "inputName": "q",
+    "placeholder": "Any equation here",
+    "buttonClass": "btn-outline-info",
+    "about": "Want to find step by step solution of a equation, find here"
   }
 ]
